@@ -1,0 +1,205 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="55dp"
+                android:text="[ "
+                android:textColor="@color/NarajoEntel"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="49dp"
+                android:text="Productos hOgar_"
+                android:textColor="@color/AzulEntel"
+                android:textSize="38sp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="101dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rlhogar1"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+
+            <RelativeLayout
+                android:layout_width="222dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="159dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/all_corner_circle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/telefonia_fija"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/BlancoEntel"
+                    android:textSize="21.7sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="184dp"
+                    android:layout_marginTop="19dp"
+                    android:background="@drawable/cast"
+                    android:backgroundTint="@color/BlancoEntel" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="222dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="400dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/all_corner_circle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/television_hd"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/BlancoEntel"
+                    android:textSize="21.7sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="184dp"
+                    android:layout_marginTop="19dp"
+                    android:background="@drawable/cast"
+                    android:backgroundTint="@color/BlancoEntel" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="222dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="641dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/all_corner_circle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/internet"
+                    android:layout_marginLeft="53dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/BlancoEntel"
+                    android:textSize="21.7sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:layout_marginLeft="184dp"
+                    android:layout_marginTop="19dp"
+                    android:background="@drawable/cast"
+                    android:backgroundTint="@color/BlancoEntel" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/que_tal_un_pack"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="29dp"
+                android:textColor="@color/NarajoEntel"
+                android:textSize="38sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ayudalo_encontrar_pack"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="75dp"
+                android:textColor="@color/GrisOscuroEntel"
+                android:textSize="21sp"
+                android:textStyle="italic" />
+
+            <RelativeLayout
+                android:id="@+id/rlDoblePack"
+                android:layout_width="288dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="109dp"
+                android:layout_marginLeft="56dp"
+                android:background="@color/AzulEntel"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvDoblePack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doble_pack"
+                    android:textColor="@color/BlancoEntel"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlTriplePack"
+                android:layout_width="288dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="184dp"
+                android:layout_marginLeft="56dp"
+                android:background="@drawable/square_boton_buscador_planes"
+                android:backgroundTint="@color/AzulEntel"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvTriplePack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/triple_pack"
+                    android:paddingRight="2dp"
+                    android:textColor="@color/BlancoEntel"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
