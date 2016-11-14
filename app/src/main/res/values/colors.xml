@@ -8,7 +8,9 @@
     <color name="NarajoEntel">#ff6702</color>
     <color name="GrisClaroEntel">#b3b1b3</color>
     <color name="GrisOscuroEntel">#636467</color>
+    <color name="GrisTextoOscuro">#4a4a4a</color>
     <color name="BlancoEntel">#f1f1f1</color>
     <color name="blanco">#ffffff</color>
+    <color name="black">#000000</color>
 
 </resources>

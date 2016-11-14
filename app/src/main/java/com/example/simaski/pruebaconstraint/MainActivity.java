@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         public SamplePagerAdapter(FragmentManager fm) {
             super(fm);
             mTitles = new ArrayList<>();
-            for (int i = 0; i < 6; i++) {
+            for (int i = 0; i < 7; i++) {
                 mTitles.add(TITLES[i]);
             }
         }
